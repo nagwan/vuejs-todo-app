@@ -1,0 +1,4 @@
+ 	
+1) You aren't defining your props correctly on you parent component. 2) You can't pass your parent component's props via v-bind="props". 3) If you are passing an object of props values to the child component via v-bind you still need to define those props in the child components. 4) "Retrieving" data from a child component is done via events
+
+									----------------------------------
